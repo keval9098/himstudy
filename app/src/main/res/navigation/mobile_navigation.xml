@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@+id/nav_home">
+
+    <fragment
+            android:id="@+id/nav_home"
+            android:name="com.example.himstudy.ui.home.HomeFragment"
+            android:label="Himstudy"
+            tools:layout="@layout/fragment_home"/>
+
+    <fragment
+            android:id="@+id/nav_articles"
+            android:name="com.example.himstudy.ui.article.ArticleFragment"
+            android:label="@string/menu_articles"
+            tools:layout="@layout/article_fragment"/>
+
+    <fragment
+            android:id="@+id/nav_current_affairs"
+            android:name="com.example.himstudy.ui.currentAffairs.CurrentAffairsFragment"
+            android:label="@string/menu_current_affairs"
+            tools:layout="@layout/current_affairs_fragment"/>
+    <fragment
+            android:id="@+id/nav_jobs"
+            android:name="com.example.himstudy.ui.jobs.JobsFragment"
+            android:label="@string/menu_jobs"
+            tools:layout="@layout/jobs_fragment"/>
+
+    <fragment
+            android:id="@+id/nav_has_mains"
+            android:name="com.example.himstudy.ui.has_mains.Has_MainsFragment"
+            android:label="@string/menu_has_mains"
+            tools:layout="@layout/has__mains_fragment"/>
+
+    <fragment
+            android:id="@+id/nav_quiz"
+            android:name="com.example.himstudy.ui.quiz.QuizFragment"
+            android:label="@string/menu_quiz"
+            tools:layout="@layout/quiz_fragment"/>
+    <fragment
+            android:id="@+id/nav_syllabus"
+            android:name="com.example.himstudy.ui.syllabus.SyllabusFragment"
+            android:label="@string/menu_syllabus"
+            tools:layout="@layout/syllabus_fragment"/>
+
+    <fragment
+            android:id="@+id/nav_papers"
+            android:name="com.example.himstudy.ui.papers.PapersFragment"
+            android:label="@string/menu_papers"
+            tools:layout="@layout/papers_fragment"/>
+
+    <fragment
+            android:id="@+id/nav_about"
+            android:name="com.example.himstudy.ui.about.AboutFragment"
+            android:label="@string/menu_about"
+            tools:layout="@layout/about_fragment"/>
+</navigation>
